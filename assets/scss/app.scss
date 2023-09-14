@@ -1,0 +1,8 @@
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'components/badges';
+@import 'common/inputs/form-textarea';

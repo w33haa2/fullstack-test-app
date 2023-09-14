@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint:js": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:js && yarn lint:prettier",
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nuxt": "^3.7.2",
+    "prettier": "^3.0.3",
+    "sass": "^1.67.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@kyvg/vue3-notification": "^3.0.1",
+    "@pinia/nuxt": "^0.4.11",
+    "@vuepic/vue-datepicker": "^6.1.0",
+    "animate.css": "^4.1.1",
+    "click-outside-vue3": "^4.0.1",
+    "date-fns": "^2.30.0",
+    "loadsh": "^0.0.4",
+    "pinia": "^2.1.6",
+    "vue-multiselect": "^2.1.7",
+    "vue-select": "^4.0.0-beta.6"
+  }
+}
