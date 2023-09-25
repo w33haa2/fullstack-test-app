@@ -65,7 +65,7 @@
 </template>
 
 <script setup>
-import ModalCloseButton from '@/components/Common/Modal/components/ModalCloseButton'
+import ModalCloseButton from '@/components/common/Modal/components/ModalCloseButton'
 
 const emit = defineEmits(['close', 'submit', 'save'])
 const props = defineProps({

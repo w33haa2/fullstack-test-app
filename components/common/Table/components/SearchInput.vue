@@ -21,7 +21,7 @@
 </template>
 
 <script setup>
-import FormInput from '@/components/common/Inputs/FormInput'
+import FormInput from '@/components/common/inputs/FormInput'
 
 const emit = defineEmits(['update:modelValue'])
 

@@ -29,9 +29,9 @@ import {format} from 'date-fns'
 import VueSelect from 'vue-select'
 import VueDatePicker from '@vuepic/vue-datepicker';
 
-import FormGroup from '@/components/Common/FormGroup'
-import FormInput from '@/components/Common/Inputs/FormInput'
-import FormTextArea from '@/components/common/Inputs/FormTextArea.vue'
+import FormGroup from '@/components/common/FormGroup'
+import FormInput from '@/components/common/inputs/FormInput'
+import FormTextArea from '@/components/common/inputs/FormTextArea.vue'
 import {task} from '@/store/task'
 import {startCase} from 'loadsh/string'
 
